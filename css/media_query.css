@@ -1,0 +1,175 @@
+@media (max-width: 1080px) {
+    .main-text>h1:first-of-type:after {
+        font-size: 150px;
+    }
+    .main-text>h1:last-of-type:after {
+        font-size: 150px;
+        left: -113%;
+    }
+    .main-text>h1 {
+        font-size: 70px;
+    }
+    .wrap-bg img {
+        width: 125%;
+    }
+    .section-title>h3 {
+        font-size: 45px;
+    }
+    .about-text p {
+    font-size: 15px;
+}
+
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: block;
+        position: absolute;
+        top: 82px;
+        left: -100%;
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    header .main-menu .burger-menu {
+        display: flex;
+        padding-right: 20px;
+        align-items: center;
+        color: #c15bff;
+    }
+    .main-menu {
+        top: 0;
+        padding: 15px 0;
+        z-index: 8;
+    }
+    .logo {
+        margin-left: 15px;
+    }
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+        padding: 12px 0;
+        display: block;
+        background: rgba(255, 255, 255, 0.9);
+    }
+    nav ul li a {
+        color: #000;
+    }
+    nav ul li:hover {
+        background: #fff;
+    }
+    .wrap-bg {
+        grid-template-rows: 100px 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .wrap-bg img {
+        grid-row: 3/4;
+        max-width: 450px;
+        justify-self: center;
+        padding: 0;
+    }
+    .main-text {
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+    .main-text>h1 {
+        font-size: 50px;
+    }
+    .main-text>h1:first-of-type:after {
+        font-size: 70px;
+        left: 0;
+    }
+    .main-text>h1:last-of-type:after {
+        font-size: 70px;
+        left: 0;
+    }
+    #about {
+        grid-template-columns: 1fr;
+    }
+    #about .article {
+        margin: 0 10px;
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    #service {
+        grid-template-columns: 1fr;
+    }
+    #service .section-title {
+        grid-column: 1/1;
+    }
+    #service .single-service {
+        margin: 0 15px;
+    }
+    #service .section-title>h3 {
+        text-align: center;
+    }
+    #skills {
+        grid-template-columns: 1fr;
+    }
+    #skills .section-title {
+        grid-column: 1/1;
+    }
+    .skills-wrap {
+        grid-column: 1/1;
+        grid-template-columns: 1fr;
+    }
+    .my-skills {
+        justify-self: center;
+    }
+    #skills article {
+        padding: 0 30px;
+    }
+    .work-wrap {
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+    .blog-item {
+        justify-self: center;
+        grid-column: 1/4;
+        margin: 10px 10px;
+    }
+    .contact-input {
+        grid-column: 1/3;
+    }
+    #contact aside {
+        margin: 50px;
+        grid-column: 1/3;
+    }
+    .main-content {
+        grid-template-columns: 1fr;
+    }  
+}
+
+@media (max-width: 500px) {
+    .main-text>h1 {
+        font-size: 30px;
+    }
+    .main-text>h1:first-of-type:after {
+        font-size: 40px;
+    }
+    .main-text>h1:last-of-type:after {
+        font-size: 40px;
+    }
+    #service .section-title>h3 {
+        padding-left: 0;
+    }
+    .service-icon {
+        padding: 15px;
+    }
+    .section-title>h3 {
+        font-size: 45px;
+    }
+    .cv-button a {
+        font-size: 15px;
+    }
+    #contact aside {
+        margin: 50px 8px 0px 8px;
+    }
+    .social-icon {
+        margin: 10px;
+    }
+    
+}

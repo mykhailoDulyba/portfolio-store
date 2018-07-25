@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "title": "Personal portfolio",
+        "image": "work-1.jpg",
+        "description": "Large drone for most critical missions. Can carry load.",
+        "price": 499.99
+    },
+    {
+        "id": "2",
+        "title": "Grid gallery",
+        "image": "work-2.jpg",
+        "description": "Small drone. Can fly undetected.",
+        "price": 199.99
+    },
+    {
+        "id": "3",
+        "title": "Internet shop ",
+        "image": "work-3.jpg",
+        "description": "Nice-looking drone in blue color. Has built-in HD camera",
+        "price": 249.99
+    },
+    {
+        "id": "4",
+        "title": "Psd website templates",
+        "image": "work-4.jpg",
+        "description": "Nice-looking drone in red color",
+        "price": 229.99
+    },
+    {
+        "id": "5",
+        "title": "Landing page + blog",
+        "image": "work-5.jpg",
+        "description": "Black gyroboard to match your style",
+        "price": 729.99
+    },
+    {
+        "id": "6",
+        "title": "Landing page ",
+        "image": "work-6.jpg",
+        "description": "White gyroboard with blue lights",
+        "price": 300.99
+    }
+    
+]

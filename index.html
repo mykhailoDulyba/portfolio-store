@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media_query.css">
+    <link rel="stylesheet" href="css/bootstrap-skin.css">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+</head>
+<body>
+    <header>
+        <div id="menu" class="main-menu">
+            <div class="header-area container">
+                <div class="logo">
+                    <a href="#home">K</a>
+                </div>
+                <i id="burger-menu" class="burger-menu fas fa-bars fa-2x"></i>
+                <nav id="nav">
+                    <ul>
+                        <li><a class="home-marker active" href="#home">home</a></li>
+                        <li><a class="about-marker " href="#about">about</a></li>
+                        <li><a class="service-marker" href="#service">service</a></li>
+                        <li><a class="work-marker" href="#work">work</a></li>
+                        <li><a class="blog-marker" href="#blog">blog</a></li>
+                        <li><a class="contact-marker" href="#contact">contact</a></li>
+                        <li>
+                        <a class="nav-link" href="#cartModal" data-toggle="modal">
+                          <i class="fab fa-opencart fa-spin" aria-hidden="true"></i>
+                            Cart<span id="cart-badge" class="badge badge-light"></span>
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="main-bg container">
+            <div class="wrap-bg">
+                <img src="img/mike-kimberlia.png" alt="I am mike kimberlia">
+                <div class="main-text">
+                    <h1>Mike</h1>
+                    <h1>Kimberlia</h1>
+                    <h2>Ui/Ux Design</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="article">
+            <div class="section-title">
+                <h3>About</h3>
+            </div>
+            <div class="about-text">
+                <h2>My name is</h2>
+                <p>Must explain to you how all this mistaken idea of denouncing pleasure and seds praising pain was born and I will give you a complete account of the system, and expound the actual teaching of the great explorer of the truth, the masterbuilder
+                    of human happiness rejects, dislikes, or avoids pleasure</p>
+            </div>
+            <div class="cv-button">
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+        <aside class="about-img">
+            <img src="img/about-me.jpg" alt="I wached on the sky">
+        </aside>
+    </section>
+    <section id="service" class="service">
+        <div class="section-title">
+            <h3>What i offer <br> for you</h3>
+        </div>
+        <div class="single-service">
+            <i class="service-icon far fa-window-restore"></i>
+            <h4>Which toil and pain procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some
+            </h4>
+        </div>
+        <div class="single-service ">
+            <i class="service-icon fa fa-cogs"></i>
+            <h4>Which toil and pain procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some</h4>
+        </div>
+        <div class="single-service">
+            <i class="service-icon fa fa-desktop"></i>
+            <h4>Which toil and pain procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some></h4>
+        </div>
+        <div class="single-service">
+            <i class="service-icon fas fa-keyboard"></i>
+            <h4>Which toil and pain procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some</h4>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-title">
+            <h3>My skills</h3>
+        </div>
+        <div class="skills-inner ">
+            <div class="container skills-wrap ">
+                <aside class="my-skills">
+                    <img src="img/me.png" alt="me">
+                </aside>
+                <article>
+                    <div class="skill-item">
+                        <h4>HTML</h4>
+                        <div class="single-skill">
+                            <div id="htmlSkill" class="skills html">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>CSS</h4>
+                        <div class="single-skill">
+                            <div id="cssSkill" class="skills css">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>JS</h4>
+                        <div class="single-skill">
+                            <div id="jsSkill" class="skills js">65%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Java</h4>
+                        <div class="single-skill">
+                            <div id="javaSkill" class="skills java">60%</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="work">
+
+            <h2 id="products">Recent Work</h2>
+            <div class="row products-container">
+               <!--Products are dynamically generated here-->
+            </div>
+
+    </section>
+    <section id="testimonial" class="container">
+        <div class="section-title">
+            <h3>What people say</h3>
+        </div>
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="img/client.jpg" alt="what client say about me ">
+                <h4>Jone Red</h4>
+                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent molestiae ei nec Nec ne dicam impedit perpetua, legimus fierent molestiae ei nec.</p>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog">
+        <div class="section-title">
+            <h3>Blog Post</h3>
+        </div>
+        <div class="blog-item">
+            <img src="img/blog-1.jpg" alt="blog">
+            <h4>News</h4>
+            <p>Lorem ipsum dolor sit amet, sit augu theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent molestiae ei nec.</p>
+            <div class="blog-button">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="blog-item">
+            <img src="img/blog-2.jpg" alt="blog">
+            <h4>News</h4>
+            <p>Lorem ipsum dolor sit amet, sit augu theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent molestiae ei nec.</p>
+            <div class="blog-button">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="blog-item">
+            <img src="img/blog-3.jpg" alt="blog">
+            <h4>News</h4>
+            <p>Lorem ipsum dolor sit amet, sit augu theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent molestiae ei nec.</p>
+            <div class="blog-button">
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h3>Contact Form</h3>
+            <h4>From any question please contact me </h4>
+        </div>
+        <div class="contact-input">
+            <form id="main-form">
+                <label>
+                        <input type="text" id="form-name" required="" placeholder="Name">
+                </label>
+                <label>
+                        <input type="email" id="form-email" required="" placeholder="Email">
+                </label>
+                <textarea id="form-message" placeholder="Message"></textarea>
+                <input type="submit" value="SEND">
+            </form>
+            <div class="overlayer-work"></div>
+        </div>
+        <aside>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-facebook-f"></i>
+            <i class="social-icon fab fa-google-plus-g"></i>
+            <i class="social-icon fab fa-git"></i>
+        </aside>
+    </section>
+
+
+    <!-- Modal Product Info -->
+    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img class="card-img-top" src="" alt="">
+              <h4 class="card-title"></h4>
+              <p class="card-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary buy" data-id="id">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Cart -->
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Your name:</label>
+                  <input class="form-control col-8" type="text" id="client-name" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-email" class="col-4 col-form-label">Your email:</label>
+                  <input class="form-control col-8" type="email" id="client-email" required>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary order">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script defer src="js/ajax-form.js"></script>
+    <script defer src="js/smooth-scroll.js"></script> 
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>    
+    <script defer src="js/index.js"></script>
+    <script defer src="js/active-nav.js"></script>
+</body>
+</html>
